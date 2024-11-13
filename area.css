@@ -1,0 +1,119 @@
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .month-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .month-selector label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .month-selector select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Expense form styling */
+  .expense-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .expense-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .expense-form .add-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #074173;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .expense-form .add-btn:hover {
+    background-color: #1679AB;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 14px;
+  }
+  
+  .expense-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .expense-list th, .expense-list td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .expense-list th {
+    background-color: #0C356A;
+    color: white;
+  }
+  
+  .expense-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .expense-list tr:hover {
+    background-color: #ddd;
+  }
+  
+  .delete-btn {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .total, .summary {
+    margin-top: 20px;
+  }
+  
+  .summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

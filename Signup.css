@@ -1,0 +1,102 @@
+/* Base styling for the entire signup page */
+.signup-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    padding-right: 500px; 
+    background-image: url(https://i.pinimg.com/564x/02/f0/9e/02f09e8cf4e38fe94fec16e9f8695dd4.jpg);
+    background-repeat: no-repeat;
+    background-size:  1280px  555px;
+}
+
+/* Container for the signup box */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Styling for the signup box header */
+.signup-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* General styling for input fields */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Change border color on input focus */
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Styling for the signup button */
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on button hover */
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the login link */
+.login-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-link p {
+    color: #333;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Change text color on link hover */
+.login-link a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

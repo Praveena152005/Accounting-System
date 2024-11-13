@@ -1,0 +1,547 @@
+.header {
+    background-image: url('bg.jpg');
+    background-size: 1280px  600px; 
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 40px;
+    color: #1E2A5E;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* color: #F9DBBA; */
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  .link:hover{
+    border-style: solid;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px; 
+    border-color:#021526;
+    color:#021526;
+  }
+  
+  .hero {
+    margin-top: 20px;
+    text-align: center;
+    padding: 200px;
+  }
+  
+  .heroTitle {
+    font-size: 36px;
+    color: #F9DBBA;
+  }
+  
+  .heroButton {
+    background-color: #7C93C3;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 100px; /* Adds rounded corners */
+    font-size: 16px; /* Adjusts the font size */
+    font-weight: bold; /* Makes the text bold */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  }
+  
+  .heroButton:hover {
+    background-color: #55679C; /* Darkens the button color on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+    
+  }
+  
+  .heroButton:active {
+    background-color: #e0ede7; /* Darkens even more when clicked */
+    transform: scale(0.98); /* Slightly shrinks the button on click */
+  }
+  
+  .finance-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FEFAF6; /* Light background color */
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #102C57;
+  }
+  
+  .section-subtitle {
+    color: #496989;
+    font-size: 20px;
+    max-width: 850px;
+    margin: 0 auto 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 300px;
+    
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    margin: 15px 0 5px;
+    color: #496989;
+  }
+  
+  .service-description {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .statistics-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003366; /* Blue background similar to the one in the image */
+    padding: 20px;
+    color: white;
+  }
+  
+  .stat-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .stat-number {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .stat-description {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
+  }
+  
+  .services-section {
+    padding: 100px;
+    text-align: center;
+    background-color: #FEFAF6;
+    
+  }
+  
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #102C57;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+  }
+  
+  .service-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .service-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-image: url(https://i.pinimg.com/564x/60/c9/df/60c9df9392e27f2716122c084ba25d48.jpg);
+    background-size: 1280px  520px; 
+    background-position: center;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #102C57;
+  }
+  
+  .hero-content h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #16325B;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #5A72A0;
+  }
+  
+
+  .watch-video-btn {
+    background-color: #7C93C3;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 100px; /* Adds rounded corners */
+    font-size: 16px; /* Adjusts the font size */
+    font-weight: bold; /* Makes the text bold */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  }
+  
+  .watch-video-btn:hover {
+    background-color: #55679C; /* Darkens the button color on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+  }
+  
+  .watch-video-btn:active {
+    background-color: #e0ede7; /* Darkens even more when clicked */
+    transform: scale(0.98); /* Slightly shrinks the button on click */
+  }
+  
+  .practice-areas-section {
+    padding: 50px;
+    background-color: #FEFAF6;
+  }
+  
+  .practice-areas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #102C57;
+  }
+  
+  .practice-areas-header h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #496989;
+  }
+  
+  .practice-areas-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .practice-areas-links span {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .practice-areas-links .active {
+    color: #102C57;
+    font-weight: bold;
+  }
+  
+  .practice-areas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: #496989;
+    font-size: 100px;
+    
+  }
+  
+  .practice-area {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .practice-area:hover {
+    transform: translateY(-5px);
+  }
+  
+  .practice-area.active {
+    background-color: #26355D;
+    color: white;
+  }
+  
+  .practice-area .image-wrapper {
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .practice-area img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .practice-area .title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  .practice-area .arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+  }
+  
+  /* LatestNews.css */
+
+.latest-news {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #FEFAF6;
+  color: #102C57;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  position: relative;
+  
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #002379;
+  margin: 10px auto 0;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.news-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.news-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-date {
+  display: block;
+  color: #1679AB;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.news-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #102C57;
+}
+
+.news-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.news-button {
+  background-color: #7C93C3;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 100px; /* Adds rounded corners */
+  font-size: 16px; /* Adjusts the font size */
+  font-weight: bold; /* Makes the text bold */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.news-button:hover {
+  background-color: #55679C; /* Darkens the button color on hover */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+.news-button:active {
+  background-color: #e0ede7; /* Darkens even more when clicked */
+  transform: scale(0.98); /* Slightly shrinks the button on click */
+}
+
+.footer {
+  background-color: #35374B;
+  color: #ccc;
+  padding: 40px 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 180px 0px 120px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.subscribe form {
+  display: flex;
+}
+
+.subscribe input[type="email"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+
+.subscribe button {
+  background-color: #7C93C3;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1px;
+  width: 100vh;
+  height: 10vh;
+  border-radius: 100px; /* Adds rounded corners */
+  font-size: 16px; /* Adjusts the font size */
+  font-weight: bold; /* Makes the text bold */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.subscribe button:hover {
+  background-color: #55679C; /* Darkens the button color on hover */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+.subscribe button:active {
+  background-color: #e0ede7; /* Darkens even more when clicked */
+  transform: scale(0.98); /* Slightly shrinks the button on click */
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
